@@ -7,8 +7,8 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = {"src/test/resources/login.feature"},
-        glue = {"amazon.ae.login"}
+        features = {"src/test/resources/cart.feature"},
+        glue = {"amazon.ae.cart"}
 )
-public class LoginRunner {
+public class CartRunner {
 }
